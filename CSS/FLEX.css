@@ -1,0 +1,89 @@
+
+body{
+  background-color: #232946;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-right: 8%;
+  padding-left: 8%;
+  box-sizing: border-box;
+  align-items: center;
+}
+ul li a:hover{
+  background-color:rgb(97, 210, 230);
+  color: #000;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  text-align: right;
+}
+h1{
+  text-align: center;
+  font-size: 190%;
+  color: white;
+}
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+ 
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.ach{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; 
+}
+.ach img {
+  max-width: 100%;
+  height: auto;
+}
+h2{
+  color: #fffffe;
+  font-size: 180%;
+  border-radius: 12px;
+  background-color: #b8c1ec;
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.footers{
+  width: 100%;
+  padding: 30px 30px 30px;
+}
+.socialicons{
+  display: flex;
+  justify-content: center;
+}
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #b8c1ec;
+  margin: 10px;
+  border-radius: 30%;
+}
+.socialicons a i{
+  font-size: 1.5em;
+  color: black;
+  opacity: 0.9;
+}
+.socialicons a:hover{
+  color: #b8c1ec;
+  transition: 0.5s;
+}
+.socialicons a:hover i{
+  color: #b8c1ec;
+  transition: 0.5s;
+}
+ul li {
+  display: inline;
+  margin-right: 30px;
+  color: #fffffe;
+  font-size: large;
+}
+
